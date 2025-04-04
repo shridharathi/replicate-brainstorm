@@ -11,8 +11,8 @@ interface PromptInputProps {
 }
 
 export default function PromptInput({ onGenerate }: PromptInputProps) {
-  const [prompt, setPrompt] = useState("")
-  const lastGeneratedPrompt = useRef("")
+  const [prompt, setPrompt] = useState("") // State for the prompt input
+  const lastGeneratedPrompt = useRef("") // Ref to track the last generated prompt
 
   useEffect(() => {
     const timer = setTimeout(() => {
