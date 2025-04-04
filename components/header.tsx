@@ -10,7 +10,7 @@ export default function Header() {
         <div className="flex items-center gap-3">
           <Logo />
           <h1 className="text-xl font-bold text-white whitespace-nowrap select-none" 
-              style={{ fontFamily: "'Neue Freigeist', sans-serif" }}>
+              style={{ fontFamily: "Neue Freigeist" }}>
             brainstorm
           </h1>
         </div>
